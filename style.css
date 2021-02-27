@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  background-image: url(imgs/Unohana\ Yachiru\ img\ 2_3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 2rem;
+  color: white;
+  min-height: 100vh;
+}
+
+.full-height-grow {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 4rem;
+}
+
+.main-nav a:hover {
+  color: lightcoral;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 2.6em;
+  margin-bottom: 1rem;
+  margin-top: 12rem;
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 1em;
+  margin-bottom: -14rem;
+  font-weight: 200;
+  margin-top: 0;
+  align-items: center;
+}

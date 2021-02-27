@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-wrapper {
+  flex: 1 0 0%;
+  text-align: right;
+  align-items: stretch;
+}
+
+.img-wrapper .unohana-image {
+  background-image: url(imgs/Unohana\ Yachiru\ 2.jpg);
+  flex-grow: 1;
+  max-height: 100vh;
+  min-width: 0;
+  background-size: contain;
+  background-position: bottom right;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-actionn {
+  display: flex;
+  justify-content: center;
+}
