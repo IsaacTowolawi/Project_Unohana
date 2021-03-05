@@ -47,3 +47,34 @@ body {
   height: 100px;
   flex-direction: row-reverse;
 }
+
+.wrapper p{
+
+  text-align: center;
+  font-size: 60px;
+}
+
+p:hover{
+  color: lightcoral;
+}
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-img{
+  margin-left: 40px;
+  border:6px solid white;
+}
+
+
+img:hover{
+  opacity: .5;
+  transition: .9s;
+}
+
+
