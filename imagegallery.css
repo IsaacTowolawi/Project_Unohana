@@ -60,17 +60,37 @@ p:hover{
 
 .img-area {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
+
+
 .single-img{
   margin-left: 40px;
   border:6px solid white;
+  position: relative;
+  width: 300px; 
+  height: 300px;
+  overflow: hidden;
 }
 
+img {
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  top: 50%; 
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+
+img.landscape {
+  height: 100%;
+  width: auto;
+  }
 
 img:hover{
   opacity: .5;
